@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Book Review Site</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>My Book Review Site</h1>
+    <nav>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="book-reviews.html">Book Reviews</a></li>
+              <li><a href="book-notes.html">Book Notes and Highlights</a></li>
+              <li><a href="to-read.html">To-Read List</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </nav>
+  </header>
+  <!-- Main content area -->
+  <main>
+    <!-- Section title for the currently reading books -->
+    <h2>Currently Reading</h2>
+
+    <!-- Container for the book cards -->
+    <div class="book-cards">
+      <!-- First book card -->
+      <div class="book-card">
+        <!-- Book cover image -->
+        <img src="golden-son-cover.jpg" alt="Golden Son Cover">
+        <!-- Book title -->
+        <h3>Golden Son</h3>
+        <!-- Book author -->
+        <p>Author: Pierce Brown</p>
+        <!-- Date started -->
+        <p>Date Started: 01-04-2023</p>
+        <!-- Button to mark book as finished -->
+      <button class="finished-button" onclick="markAsFinished(event)">Mark as Finished</button>
+      </div>
+
+      <!-- Second book card -->
+      <div class="book-card">
+        <!-- Book cover image -->
+        <img src="black-swan-cover.jpg" alt="Black Swan Cover">
+        <!-- Book title -->
+        <h3>The Black Swan</h3>
+        <!-- Book author -->
+        <p>Author: Nassim Nicholas Taleb</p>
+        <!-- Date started -->
+        <p>Date Started: 15-03-2023</p>
+        <!-- Button to mark book as finished -->
+        <button class="finished-button" onclick="markAsFinished(event)">Mark as Finished</button>
+      </div>
+
+      <!-- Third book card -->
+      <div class="book-card">
+        <!-- Book cover image -->
+        <img src="remarkably-bright-creatures-cover.jpg" alt="Remarkably Bright Creatures Cover">
+        <!-- Book title -->
+        <h3>Remarkably Bright Creatures</h3>
+        <!-- Book author -->
+        <p>Author: Shelby Van Pelt</p>
+        <!-- Date started -->
+        <p>Date Started: 28-02-2023</p>
+        <!-- Button to mark book as finished -->
+        <button class="finished-button" onclick="markAsFinished(event)">Mark as Finished</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2023 My Book Review Site. All rights reserved.</p>
+  </footer>
+
+   <script src="scripts.js"></script>
+
+</body>
+</html>
